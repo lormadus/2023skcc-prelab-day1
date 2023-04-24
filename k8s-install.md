@@ -13,3 +13,5 @@ curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.25.7/2023-03-17/bin/linu
 eksctl create cluster --nodes-min=2 --nodes-max=3 --name my-cluster --region eu-north-1 --nodes=2
 ```
 
+## Sample App
+https://github.com/aws-containers/retail-store-sample-app
